@@ -72,6 +72,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     filter: brightness(0.8);
+    cursor: pointer;
 }
 
 input[type="submit"]:active {
@@ -88,4 +89,94 @@ footer {
     padding: 2px;
     text-align: center;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        padding: 10px;
+        font-size: 20px;
+        letter-spacing: 0.3px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    body {
+        height: 100vh;
+    }
+
+    #icon-left,
+    #icon-right {
+        width: 10px;
+    }
+
+    #icon-left {
+        margin: 0 5px 0 0;
+    }
+
+    #icon-right {
+        margin: 0 0 0 5px;
+    }
+
+    .registration-wrapper {
+        width: 90%;
+    }
+
+    input {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    footer {
+        width: 80%;
+        left: 10%;
+        bottom: 0;
+        font-size: 12pxo;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    h1 {
+        padding: 14px;
+        font-size: 26px;
+        letter-spacing: 0.3px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    body {
+        height: 100vh;
+    }
+
+    #icon-left,
+    #icon-right {
+        width: 20px;
+    }
+
+    #icon-left {
+        margin: 0 8px 0 0;
+    }
+
+    #icon-right {
+        margin: 0 0 0 8px;
+    }
+
+    .registration-wrapper {
+        width: 70%;
+    }
+
+    input {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    footer {
+        width: 70%;
+        left: 15%;
+        bottom: 0;
+        font-size: 12pxo;
+    }
 }
