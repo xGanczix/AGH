@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(120deg, #042326 25%, #0A3A40 50%, #0F5959 75%, #1D7373 87.5%, #107361 100%);
+    height: 100vh;
+}
+
+
+header {
+    text-align: center;
+}
+
+h1 {
+    padding: 40px;
+    color: #eee;
+    text-shadow: 2px 2px 2px #000;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+#icon-left {
+    width: 40px;
+    margin: 0 10px 0 0;
+}
+
+#icon-right {
+    width: 40px;
+    margin: 0 0 0 10px;
+}
+
+.registration-wrapper {
+    width: 30%;
+    height: 400px;
+    margin: 40px auto;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 20px #000;
+    padding: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    width: 70%;
+    padding: 10px 5px;
+    background: none;
+    border: 2px solid #666;
+    border-radius: 20px;
+}
+
+input[type="submit"] {
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    margin-top: 40px;
+    color: #eee;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 16px;
+    background: linear-gradient(120deg, #0F5959, #1D7373, #107361);
+}
+
+input[type="submit"]:hover {
+    filter: brightness(0.8);
+}
+
+input[type="submit"]:active {
+    border: inset;
+}
+
+footer {
+    position: absolute;
+    left: 35%;
+    bottom: 0;
+    width: 30%;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px #000;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+}
