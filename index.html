@@ -22,24 +22,31 @@
             <font color="#A71931">H</font><img src="img/data-science.png" alt="" id="icon-right"><img
                 src="img/science.png" alt="" id="icon-right"><img src="img/moon.png" alt="" id="icon-right">
         </h1>
+        <!-- rgba(255, 0, 0, 0.589) -->
+        <h3 style="background: rgba(0, 255, 55, 0.589); ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, quos nostrum. Eligendi assumenda hic autem sint sunt ut voluptatibus quia eius qui, debitis in excepturi quas asperiores eaque magni sit.</h3>
         <div class="registration-wrapper">
             <h2>Zapisy na Małopolską Noc Naukowców AGH</h2>
-            <h3>Jakiś tam komunikat</h3>
             <form action="">
-                <input type="text" placeholder="Imię">
-                <input type="text" placeholder="Nazwisko">
-                <input type="email" placeholder="E-mail">
-                <select name="" id="">
+                <input type="text" placeholder="Imię" required>
+                <input type="text" placeholder="Nazwisko" required>
+                <input type="email" placeholder="E-mail" required>
+                <select name="" id="" required>
                     <option value="test1">1</option>
                     <option value="test2">2</option>
                 </select>
-                <input type="submit" value="Zapisz mnie!">
+                <br>
+                <span>Przeczytałem <a href="#">regulamin</a></span><input type="checkbox" name="" id="" required>
+                <input type="submit" value="Zapisz mnie!" class="yes-btn">
+            </form>
+            <form action="">
+                <input type="submit" value="Anuluj" class="no-btn">
+                <input type="submit" value="Anuluj" class="info-btn">
             </form>
         </div>
+        <footer>
+            &copy; 2023 xGanczix & Einstein
+        </footer>
     </header>
-    <footer>
-        &copy; 2023 xGanczix & Einstein
-    </footer>
 </body>
 
 </html>
