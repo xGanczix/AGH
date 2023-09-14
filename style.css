@@ -34,7 +34,7 @@ h1 {
 
 .registration-wrapper {
     width: 30%;
-    height: 400px;
+    height: 500px;
     margin: 40px auto;
     border-radius: 30px;
     background: rgba(255, 255, 255, 0.7);
@@ -46,6 +46,17 @@ h2 {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #17a2b8;
+    border-radius: 20px;
+    padding: 10px 5px;
+    color: #aaa;
 }
 
 input {
@@ -79,11 +90,27 @@ input[type="submit"]:active {
     border: inset;
 }
 
+select {
+    width: 70%;
+    padding: 10px 5px;
+    border-radius: 20px;
+    background: none;
+    border: 2px solid #666;
+    text-align: center;
+}
+
+option {
+    padding: 10px 5px;
+    font-size: 16px;
+}
+
+option:active {
+    background: #0F5959;
+}
+
 footer {
-    position: absolute;
-    left: 35%;
-    bottom: 0;
     width: 30%;
+    margin: 0 auto;
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 0 0 10px #000;
     padding: 2px;
@@ -136,7 +163,7 @@ footer {
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
     h1 {
         padding: 14px;
         font-size: 26px;
